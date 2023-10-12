@@ -1,0 +1,102 @@
+
+body {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Sofia", sans-serif;
+
+color:#ffffff;
+}
+
+#btc{
+background: url(abstract-template-blue-background-white-squares-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tools {
+background-color: #53d2e6;
+color: #ffffff;
+}
+
+#restart {
+  display: none;
+}
+
+/* Element | https://shrouded-abiding-haze.glitch.me/ */
+
+#previousChapter {
+  display: none;
+}
+
+/* Element | https://shrouded-abiding-haze.glitch.me/ */
+
+#nextChapter {
+  display: none;
+}
+
+
+/* Element | https://shrouded-abiding-haze.glitch.me/ */
+
+#previousSlide {
+  /* font-size: 0; */
+}
+
+/* Inline #3 | https://shrouded-abiding-haze.glitch.me/ */
+
+.icon {
+  height:40px;
+  width: 45px;
+  font-size: 0;
+  background: none;
+  border: none;
+ background-repeat: no-repeat;
+}
+
+.icon.previous {
+  background-image: url("./20631334631558096440.svg");
+}
+
+.icon.next {
+  background-image: url("./8282143331558096339.svg");
+}
+
+
+/* Inline #3 | https://shrouded-abiding-haze.glitch.me/ */
+
+.titles span {
+  display: none;
+}
+
+.titles span:first-child {
+  display: inline;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  padding: 0 5vw;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 1;
+}
+
+.chapter {
+  display: flex;
+  transition: transform 500ms ease-in-out;
+}
+
+.chapter section {
+  height: 100vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 5vw;
+  align-items: center;
+  font-size: 3rem;
+}
+
